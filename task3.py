@@ -1,4 +1,5 @@
 import re
+
 def check_password_strength(password):
     # Define criteria
     length = len(password) >= 8
@@ -38,7 +39,7 @@ def main():
 
         choice = input("Do you want to check another password? (yes/no): ")
         if choice.lower() != 'yes':
-            print("Thank you for using the Password Strength Checkers")
+            print("Thank you for using the Password Strength Checker")
             break
 
 
